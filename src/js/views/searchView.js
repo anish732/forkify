@@ -10,6 +10,16 @@ export const clearResults = () => {
   elements.searchResPages.innerHTML = "";
 };
 
+export const highlightSelected = id => {
+  const resultsArr = Array.from(document.querySelectorAll(".results__link"));
+  resultsArr.forEach(el => {
+    el.classList.remove("results__link--active");
+  });
+  document
+    .querySelector(`.results__link[href*="${id}"]`)
+    .classList.add("results__link--active");
+};
+
 //will give only one line title and rest ...
 const limitRecipeTitle = (title, limit = 17) => {
   const newTitle = [];

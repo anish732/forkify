@@ -2,7 +2,7 @@
 
 #### Forkify is an app you can get recipe of your choice. Once you select recipe you can get ingredient of the perticular recipe and add to your shopping list. You can also add or delete items you don't need to buy. If you like any recipe you can add/delete in your favorite recipe by clicking heart icon.
 
-### Demo : [](https://silly-volhard-6bc3e0.netlify.com/)
+### Demo : [Forkify](https://silly-volhard-6bc3e0.netlify.com/)
 
 ### Screenshot:![](./dist/img/forkify.png)
 

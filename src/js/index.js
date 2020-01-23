@@ -106,7 +106,9 @@ const controlRecipe = async () => {
   window.addEventListener(event, controlRecipe)
 );
 
-//LIST CONTROLLER
+/**
+ * List Controller
+ */
 
 const controlList = () => {
   // Create a new list IF there in none yet
@@ -137,7 +139,9 @@ elements.shopping.addEventListener("click", e => {
   }
 });
 
-//Like Controller
+/**
+ * Like Controller
+ */
 
 const controlLike = () => {
   if (!state.likes) state.likes = new Likes();
